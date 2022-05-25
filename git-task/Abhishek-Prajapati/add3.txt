@@ -1,0 +1,6 @@
+add3 file 4
+<<<<<<< HEAD
+add3 file
+add3 file 3
+=======
+>>>>>>> 8035551... Forth Commit

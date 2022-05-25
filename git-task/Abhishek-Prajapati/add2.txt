@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+add2 file 4
+=======
+add2 file
+>>>>>>> 3acbe37... Second Commit
+=======
+add2 file 2
+>>>>>>> d627dd7... Third Commit
+=======
+add2 file 4
+>>>>>>> 8035551... Forth Commit
