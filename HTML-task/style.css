@@ -1,0 +1,289 @@
+* {
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    display: flex;
+    /* padding: 0;
+    margin: 0; */
+    
+}
+.container ul{
+    display: flex; 
+    list-style: none;
+
+
+}
+.container ul li{
+    /* padding: 0px; */
+    margin-left: 20px;
+    text-align: end;
+}
+.right a{
+    color: rgb(148, 148, 148);
+    /* margin-right : 20px; */
+    text-decoration: none;
+    /* display: flex;  */
+    margin-left: 70px;
+
+}
+.des{
+    padding-top: 100px;
+}
+.btn{
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    width: 10vw;
+    background-color: #3dadc1;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button h3 {
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  
+  i:last-child {
+    margin-left: -8px;
+  }
+
+/* .detalis1{
+    display:flex;
+} */
+#detalis1 {
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid rgb(148, 148, 148);
+  }
+
+  /* #image{
+    width: 100%;
+    height: 70%;
+  }  */
+  
+  .detalis2 {
+    width: 33.33%;
+    /* background-color: brown; */
+    padding: 10px;
+    padding-left: 70px;
+  }
+  .detalis2 p {
+    margin: 10px 0 15px 0px;
+  }
+
+  #detalis3 {
+    width: 100%;
+    /* height: 50%; */
+    /*     
+      background-color: rgb(172, 172, 246); */
+    display: grid;
+    grid-row-gap: 50px;
+  }
+  #top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+  }
+  .oneblock {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    /* background-color: chartreuse; */
+  }
+  #middletop {
+    /* background-color: coral; */
+  }
+  #bigborder {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    margin-right: 10px;
+  }
+  .oneblockimage {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+  
+  }
+  #content h3{
+    color: #3dadc1;
+  }
+  #content p{
+    color: rgb(182, 182, 182);
+  }
+  #img1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  }
+  #img2 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://images.unsplash.com/photo-1609492168569-53f901811809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+  }
+  #img3 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1223&q=80);
+  }
+  #img4 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://media.istockphoto.com/photos/oil-pump-jack-and-barrels-on-newpaper-with-gdecrease-of-price-of-oil-picture-id1319625397?b=1&k=20&m=1319625397&s=170667a&w=0&h=g9fab1yLs0bNSHCYcwWoVGElz_dr6luNWbjDRiHWY6g=);
+  }
+  #img5 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://media.istockphoto.com/photos/happy-multi-generational-women-having-fun-together-multiracial-on-picture-id1308419138?b=1&k=20&m=1308419138&s=170667a&w=0&h=qOLuwuSdGPknctFw5cjnnrsTc-EudiP241OUyqCLl7g=);
+  }
+  #img6 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://media.istockphoto.com/photos/large-house-with-steep-roof-and-side-entry-three-car-garage-picture-id1272163106?b=1&k=20&m=1272163106&s=170667a&w=0&h=pTjbBRKTcnhs-oIGpuSB4TyAE5768gp0BefDXxyUNTU=);
+  }
+  #bottom {
+    width: 100%;
+    padding: 12px;
+    height: 100%;
+    display: flex;
+  }
+
+  #footer {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(50, 50, 58);
+    border: 1px solid transparent;
+    color: rgb(172, 172, 172);
+  }
+  
+  #contentfooter {
+    width: 100%;
+    height: 75%;
+    /* background-color: #fafafa; */
+  
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    padding: 20px;
+   
+  }
+  
+  .cf-1 h4 {
+    margin-bottom: 12px;
+  }
+  .cf-1 h4{
+    color: #fff;
+  }
+  #cf-1 li {
+    color: #3dadc1;
+  }
+  
+  #cf-b {
+    display: grid;
+    /* grid-column-gap: 50px; */
+  }
+  #cd-1.namephonenumber {
+    background-color: turquoise;
+    width: 50%;
+    height: 20%;
+  }
+  .cf-1 #line {
+    width: 200%;
+    height: 1px;
+    background-color: rgb(70, 70, 70);
+    margin: 5px 0px;
+  
+  }
+  #footer-content {
+    width: 100%;
+    /* height: 10%; */
+    background-color: rgb(56, 56, 56);
+   padding: 15px;
+    display:flex;
+    align-items: center;
+  justify-content: space-between;
+  }
+  #name{
+    width: 150%;
+    height: 30%;
+    background-color: rgb(44, 43, 53);
+    border-radius: 5px;
+  
+  
+  }
+  #email{
+    width: 150%;
+    height: 30%;
+    background-color: rgb(44, 43, 53);
+    padding: 12px;
+   border-radius: 5px;
+   margin: 5px 0 5px 0;
+  }
+  .cf-1 input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(59, 57, 57);
+  }
+  
+  
+  #button p{
+    width: 50%;
+    background-color: #3dadc1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #circles {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    /* background-color: violet; */
+    /* bottom: 50px; */
+    top: 50%;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 35px;
+  }
+  
+  #circles .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #3dadc1;
+    margin-right: 10px;
+  }
+  
+  #circles .circle:last-child {
+    background-color: #fff;
+    border: 4px solid #3dadc1;
+  }
+  
