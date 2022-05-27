@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let date = new Date();
+
+        // console.log(date);
+
+        // console.log(new Intl.DateTimeFormat('en-US', options).format(date));
+
+
+//         const Xmas95 = new Date('December 25, 1995 23:15:30');
+// const month = Xmas95.getMonth();
+
+// console.log(month); // 11
+// console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
+
+
+        var get_month = function(dt){
+            m_list = ["Jan","Feb","March","April","May","June","July","August","September","October","November","December"];
+            return m_list[dt.getMonth()];
+        }
+
+        console.log(get_month(new Date("09/11/2019")));
+        console.log(get_month(new Date("10/13/2018")));
+
+
+    </script>
+</body>
+</html>
